@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Visitor Scan
+
+This webapp attempts to display to the visitor all information that they make available to the pages they visit.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
