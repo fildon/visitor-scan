@@ -15,11 +15,11 @@ describe("Cookies component", () => {
       <Cookies cookieString={"name1=value1; name2=value2"} />
     );
 
-    const tableCells = getAllByRole("row");
-    expect(tableCells).toHaveLength(3);
+    const tableRows = getAllByRole("row");
+    expect(tableRows).toHaveLength(3);
 
     // The first item in the list here is the static header row
-    const [, firstRow, secondRow] = tableCells;
+    const [, firstRow, secondRow] = tableRows;
 
     expect(firstRow).toContainElement(getByText("name1"));
     expect(firstRow).toContainElement(getByText("value1"));
