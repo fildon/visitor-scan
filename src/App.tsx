@@ -1,5 +1,5 @@
 import "./App.css";
-import Cookies from "./components/cookies/Cookies";
+import Cookies from "./components/Cookies";
 
 const App = () => {
   const cookieString = document.cookie;
